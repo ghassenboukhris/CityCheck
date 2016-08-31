@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest">
+
+  <Identity Name="7b978475-fe5b-41e1-af28-0338d769a742"
+            Publisher="CN=ghassen"
+            Version="1.0.0.0" />
+
+  <Properties>
+    <DisplayName>CityCheck.Windows</DisplayName>
+    <PublisherDisplayName>ghassen</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+
+  <Prerequisites>
+    <OSMinVersion>6.3.0</OSMinVersion>
+    <OSMaxVersionTested>6.3.0</OSMaxVersionTested>
+  </Prerequisites>
+
+  <Resources>
+    <Resource Language="x-generate"/>
+  </Resources>
+
+  <Applications>
+    <Application Id="App"
+        Executable="$targetnametoken$.exe"
+        EntryPoint="CityCheck.Windows.App">
+      <m2:VisualElements
+          DisplayName="CityCheck.Windows"
+          Square150x150Logo="Assets\Logo.png"
+          Square30x30Logo="Assets\SmallLogo.png"
+          Description="CityCheck.Windows"
+          ForegroundText="light"
+          BackgroundColor="#464646">
+        <m2:SplashScreen Image="Assets\SplashScreen.png" />
+      </m2:VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>
