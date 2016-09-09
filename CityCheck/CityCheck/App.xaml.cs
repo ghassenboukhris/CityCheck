@@ -13,7 +13,7 @@ namespace CityCheck
         {
             InitializeComponent();
 
-            MainPage = new CityCheck.MainPage();
+            MainPage = new CityCheck.LoginPage();
         }
 
         protected override void OnStart()

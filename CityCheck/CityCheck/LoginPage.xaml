@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CityCheck.LoginPage"
+            
+             >
+
+
+
+  <RelativeLayout Padding="5,0,0,0" >
+    <Button
+Clicked="facebook"
+  BackgroundColor="Transparent"
+ WidthRequest="80"
+
+  TranslationY="460"
+  TranslationX="90"
+    
+      />
+    <Button
+Clicked="google"
+  BackgroundColor="Transparent"
+ WidthRequest="80"
+
+  TranslationY="460"
+  TranslationX="180"
+    
+      />
+    <Button
+Clicked="Login"
+  BackgroundColor="Transparent"
+ WidthRequest="150"
+
+  TranslationY="380"
+  TranslationX="100"
+    
+      />
+    <Button
+Clicked="Signup"
+  BackgroundColor="Transparent"
+ WidthRequest="80"
+Text="Signup"
+  TranslationY="330"
+  TranslationX="110"
+    
+      />
+
+    <Image
+      x:Name="backgroundportrait"
+      WidthRequest="500"
+      HeightRequest="450"
+      TranslationY="-300"
+       TranslationX="-50"
+      />
+
+    <Image
+   x:Name="logoportrait"
+   WidthRequest="200"
+   HeightRequest="200"
+   TranslationX="80"
+   TranslationY="30"
+      />
+    <Image
+x:Name="logolandscape"
+WidthRequest="150"
+HeightRequest="150"
+TranslationX="200"
+TranslationY="0"
+   
+      />
+
+    <Image
+x:Name="facebookportrait"
+WidthRequest="75"
+HeightRequest="75"
+TranslationX="100"
+TranslationY="450"
+   
+      />
+    <Image
+x:Name="facebooklandscape"
+WidthRequest="65"
+HeightRequest="65"
+TranslationX="180"
+TranslationY="255"
+
+      />
+
+
+    <Image
+x:Name="googleportrait"
+WidthRequest="75"
+HeightRequest="75"
+TranslationX="180"
+TranslationY="450"
+   
+      />
+    <Image
+x:Name="googlelandscape"
+WidthRequest="65"
+HeightRequest="65"
+TranslationX="300"
+TranslationY="255"
+
+   
+      />
+    <Image
+ x:Name="cityportrait"
+WidthRequest="550"
+HeightRequest="550"
+TranslationY="290"
+
+      />
+
+    <Image
+ x:Name="loginportrait"
+
+WidthRequest="150"
+HeightRequest="150"
+
+TranslationY="330"
+ TranslationX="100"
+      />
+
+    <Image
+   x:Name="loginlandscape"
+  WidthRequest="120"
+  HeightRequest="120"
+  TranslationY="169"
+   TranslationX="200"
+      />
+
+    <Grid >
+
+      <Grid.RowDefinitions>
+        <RowDefinition Height="*" />
+        <RowDefinition Height="*" />
+        <RowDefinition Height="*" />
+        <RowDefinition Height="*" />
+        <RowDefinition Height="*" />
+        <RowDefinition Height="*" />
+
+
+      </Grid.RowDefinitions>
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="3" />
+        <ColumnDefinition Width="3" />
+        <ColumnDefinition Width="3" />
+      </Grid.ColumnDefinitions>
+
+
+
+      <Entry
+        x:Name="Username"
+        Placeholder="mail"
+      Grid.Row="4"
+       Grid.Column="2"
+        Grid.ColumnSpan="3"
+        TranslationY="90"
+       TranslationX="50"
+      />
+      <Entry
+        x:Name="Password"
+        Placeholder="password"
+      Grid.Row="5"
+       Grid.Column="2"
+        Grid.ColumnSpan="3"
+        TranslationY="90"
+        TranslationX="50"
+      
+      />
+
+
+
+      <Label
+        x:Name="Orportrait"
+      Text="OR"
+        TextColor="Red"
+      
+         Grid.Row="8"
+       Grid.Column="3"
+        TranslationX="130"
+        TranslationY="70"
+      />
+      <Label
+    x:Name="Orlandscape"
+ 
+    TextColor="Red"
+      
+     Grid.Row="8"
+   Grid.Column="3"
+    TranslationX="220"
+    TranslationY="-20"
+      />
+
+
+
+    </Grid>
+
+  </RelativeLayout>
+
+</ContentPage>
